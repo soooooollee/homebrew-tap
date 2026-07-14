@@ -27,10 +27,14 @@ class Airoute < Formula
   end
 
   def install
-    bin.install "airoute"
+    if File.exist?("air")
+      bin.install "air"
+    else
+      bin.install "airoute" => "air"
+    end
   end
 
   test do
-    assert_match "airoute #{version}", shell_output("#{bin}/airoute version")
+    assert_match version.to_s, shell_output("#{bin}/air version")
   end
 end
