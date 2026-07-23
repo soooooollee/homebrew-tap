@@ -1,28 +1,28 @@
 class Airoute < Formula
   desc "Local-first AI protocol conversion and model routing gateway"
   homepage "https://github.com/soooooollee/ai-router"
-  version "0.3.0"
+  version "0.3.1"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/soooooollee/ai-router/releases/download/v0.3.0/airoute_0.3.0_darwin_amd64.tar.gz"
-      sha256 "1e7c0e6e9c67f51054ee45d2b77a8dbc0fd4d937e6fea3a8071b3aae49e7700b"
+      url "https://github.com/soooooollee/ai-router/releases/download/v0.3.1/airoute_0.3.1_darwin_amd64.tar.gz"
+      sha256 "dc44492c97c0790ed56b47a91d2cd4824e68d27c8e6b12bc9bab4ab19dc1259e"
     end
     on_arm do
-      url "https://github.com/soooooollee/ai-router/releases/download/v0.3.0/airoute_0.3.0_darwin_arm64.tar.gz"
-      sha256 "8f316a167f441768605dac82a7a64366a5021d1f580c0dbf23d866ebe8f71553"
+      url "https://github.com/soooooollee/ai-router/releases/download/v0.3.1/airoute_0.3.1_darwin_arm64.tar.gz"
+      sha256 "6c2c78d20a3b80c09cbf2e12238b1cc224bc5de9a445a56a8bbbd3c4ceabd767"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/soooooollee/ai-router/releases/download/v0.3.0/airoute_0.3.0_linux_amd64.tar.gz"
-      sha256 "84d5071436aa0809bf5ea346fe583c165add8516935492253d5d13dc5e05d627"
+      url "https://github.com/soooooollee/ai-router/releases/download/v0.3.1/airoute_0.3.1_linux_amd64.tar.gz"
+      sha256 "fed036ad108622f9a3693fdbcae722590bc1de081341f91720c3f4ea9e7f8c50"
     end
     on_arm do
-      url "https://github.com/soooooollee/ai-router/releases/download/v0.3.0/airoute_0.3.0_linux_arm64.tar.gz"
-      sha256 "7bff26328fb5860fc602134c35046fd9589a234ae8cd27cc392196e20b813319"
+      url "https://github.com/soooooollee/ai-router/releases/download/v0.3.1/airoute_0.3.1_linux_arm64.tar.gz"
+      sha256 "33290cf35037a63297eedecbc3eb5ac6edd7f226daecc672ff89c0247a3e9f99"
     end
   end
 
